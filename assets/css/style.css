@@ -1,0 +1,16 @@
+:root{
+    --bg-custom-color-primary1 : #101b62; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.home-description {
+background-color: var(--bg-custom-color-primary1);
+}
+.disabled-link {
+    pointer-events: none; /* Chặn các sự kiện chuột */
+    color: gray; /* Thêm kiểu cho thẻ để nó trông như bị vô hiệu hóa */
+    text-decoration: none;
+  }
