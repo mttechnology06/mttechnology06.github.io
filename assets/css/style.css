@@ -14,3 +14,17 @@ background-color: var(--bg-custom-color-primary1);
     color: gray; /* Thêm kiểu cho thẻ để nó trông như bị vô hiệu hóa */
     text-decoration: none;
   }
+
+
+
+  .webpage {
+    display: none;
+  }
+
+  .webpage.active {
+    display: block;
+  }
+
+  .navbar {
+    display: flex;
+  }
